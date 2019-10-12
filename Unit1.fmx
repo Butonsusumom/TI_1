@@ -1,0 +1,121 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object RadioButton1: TRadioButton
+    StyledSettings = [Style, FontColor]
+    Position.X = 56.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 241.000000000000000000
+    Size.Height = 45.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Rail Fance'
+    TextSettings.Font.Family = 'Segoe Print'
+    TextSettings.Font.Size = 18.000000000000000000
+    OnClick = Button1Click
+  end
+  object RadioButton2: TRadioButton
+    StyledSettings = [Style, FontColor]
+    Position.X = 56.000000000000000000
+    Position.Y = 104.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 27.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Column method'
+    TextSettings.Font.Family = 'Segoe Print'
+    TextSettings.Font.Size = 18.000000000000000000
+    OnClick = Button1Click
+  end
+  object RadioButton3: TRadioButton
+    StyledSettings = [Style, FontColor]
+    Position.X = 56.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 27.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Vizener'
+    TextSettings.Font.Family = 'Segoe Print'
+    TextSettings.Font.Size = 18.000000000000000000
+  end
+  object Button1: TButton
+    StyledSettings = [Family, FontColor]
+    Position.X = 24.000000000000000000
+    Position.Y = 376.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'Cipher'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000100000004000000}
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    StyledSettings = [Family, FontColor]
+    Position.X = 488.000000000000000000
+    Position.Y = 376.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'Decipher'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000100000004000000}
+    OnClick = Button2Click
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 24.000000000000000000
+    Position.Y = 296.000000000000000000
+    Size.Width = 377.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Viewport.Width = 373.000000000000000000
+    Viewport.Height = 21.000000000000000000
+  end
+  object Memo2: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 448.000000000000000000
+    Position.Y = 296.000000000000000000
+    Size.Width = 162.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Viewport.Width = 158.000000000000000000
+    Viewport.Height = 21.000000000000000000
+  end
+  object Button3: TButton
+    Position.X = 400.000000000000000000
+    Position.Y = 296.000000000000000000
+    Size.Width = 25.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Text = '...'
+    OnClick = Button3Click
+  end
+  object Label1: TLabel
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 456.000000000000000000
+    Position.Y = 264.000000000000000000
+    TextSettings.Font.StyleExt = {00040000000100000004000000}
+    Text = 'Please, enter key'
+    TabOrder = 9
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 24
+    Top = 272
+  end
+end
